@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		583600821A2051E600F1DBB8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 583600811A2051E600F1DBB8 /* main.cpp */; };
+		5836008A1A20612A00F1DBB8 /* hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 583600881A20612A00F1DBB8 /* hash.cpp */; };
+		5836008D1A2143C400F1DBB8 /* Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5836008B1A2143C400F1DBB8 /* Dictionary.cpp */; };
+		583600901A2449F600F1DBB8 /* SpellChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5836008E1A2449F600F1DBB8 /* SpellChecker.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		5836007E1A2051E600F1DBB8 /* Hashing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hashing; sourceTree = BUILT_PRODUCTS_DIR; };
 		583600811A2051E600F1DBB8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		583600881A20612A00F1DBB8 /* hash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hash.cpp; sourceTree = "<group>"; };
+		583600891A20612A00F1DBB8 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		5836008B1A2143C400F1DBB8 /* Dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dictionary.cpp; sourceTree = "<group>"; };
+		5836008C1A2143C400F1DBB8 /* Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		5836008E1A2449F600F1DBB8 /* SpellChecker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpellChecker.cpp; sourceTree = "<group>"; };
+		5836008F1A2449F600F1DBB8 /* SpellChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpellChecker.h; sourceTree = "<group>"; };
+		58E013CF1A269178005D3130 /* wordlist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				583600811A2051E600F1DBB8 /* main.cpp */,
+				583600881A20612A00F1DBB8 /* hash.cpp */,
+				583600891A20612A00F1DBB8 /* hash.h */,
+				5836008B1A2143C400F1DBB8 /* Dictionary.cpp */,
+				5836008C1A2143C400F1DBB8 /* Dictionary.h */,
+				5836008E1A2449F600F1DBB8 /* SpellChecker.cpp */,
+				5836008F1A2449F600F1DBB8 /* SpellChecker.h */,
+				58E013CF1A269178005D3130 /* wordlist */,
 			);
 			path = Hashing;
 			sourceTree = "<group>";
@@ -119,6 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				583600821A2051E600F1DBB8 /* main.cpp in Sources */,
+				5836008A1A20612A00F1DBB8 /* hash.cpp in Sources */,
+				583600901A2449F600F1DBB8 /* SpellChecker.cpp in Sources */,
+				5836008D1A2143C400F1DBB8 /* Dictionary.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +252,7 @@
 				583600871A2051E600F1DBB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
